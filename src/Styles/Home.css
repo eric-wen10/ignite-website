@@ -1,0 +1,31 @@
+.What-we-do {
+    display: flex; /* Use Flexbox to make children sit side-by-side */
+    justify-content: space-between; /* Distribute children evenly */
+    align-items: center; /* Center children vertically */
+}
+
+.box {
+    flex: 1; /* Each box will take equal width */
+    border: 2px solid black; /* Border for each box */
+    margin: 10px; /* Some space between each box */
+    padding: 10px; /* Space between border and content */
+    text-align: center; /* Center the content inside each box */
+    fill:#f8740c;
+}
+.span{
+    align-items: center;
+}
+
+.a{
+    align-items: center;
+}
+
+h3 {
+    margin: 0; /* Remove default margin */
+    margin-bottom: 5px; /* Add some space between the h3 and the paragraph */
+}
+
+p {
+    margin: 0; /* Remove default margin */
+    font-size: 0.8em; /* Make the text smaller */
+}
